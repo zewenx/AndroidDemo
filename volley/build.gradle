@@ -1,0 +1,21 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 23
+    buildToolsVersion = '23.0.3'
+    useLibrary 'org.apache.http.legacy'
+    buildToolsVersion '23.0.3'
+}
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+    }
+}
+repositories {
+    jcenter()
+}
+
+dependencies {
+}

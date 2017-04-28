@@ -1,0 +1,12 @@
+bin
+gen
+.gradle
+build
+.settings
+target
+*.iml
+.idea
+local.properties
+
+app/app-release.apk
+onlinejudge/src/main/java/com/function/privates/PriceCalculator.java

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4e4949"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:textColor="#e4d74d"
+        android:textSize="24sp"
+        tools:text="this is "
+        />
+    <TextView
+        android:id="@+id/function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:gravity="center_vertical"
+        android:paddingBottom="3dp"
+        android:paddingLeft="5dp"
+        android:textColor="#e4d74d"
+        android:textSize="14sp"
+        tools:text = "function"
+        />
+</RelativeLayout>

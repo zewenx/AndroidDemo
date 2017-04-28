@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/gluegen-rt.jar')
+    compile files('libs/gluegen-rt-natives-macosx-universal.jar')
+    compile files('libs/jogl-all.jar')
+    compile files('libs/jogl-all-mobile-natives-macosx-universal.jar')
+}

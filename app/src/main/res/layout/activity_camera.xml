@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/camera_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/switch_camera"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/sh"
+        android:layout_marginRight="30dp"
+        android:text="switch"
+        android:textAlignment="center"
+        android:textColor="#33ff0000"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal">
+
+        <zeven.view.ButtonView
+            android:id="@+id/cancel_camera"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/sh"
+            android:layout_marginRight="30dp"
+            android:text="cancel"
+            android:textAlignment="center"
+            android:textColor="#33321321"
+            android:textSize="15sp" />
+
+        <zeven.view.ButtonView
+            android:id="@+id/hit_camera"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/sh"
+            android:text="hit"
+            android:textAlignment="center"
+            android:textColor="#99111111"
+            android:textSize="15sp" />
+
+        <zeven.view.ButtonView
+            android:id="@+id/save_camera"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/sh"
+            android:layout_marginLeft="30dp"
+            android:text="save"
+            android:textAlignment="center"
+            android:textColor="#33123123"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>
