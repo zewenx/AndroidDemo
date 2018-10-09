@@ -16,7 +16,7 @@ def getNthUglyNo(n):
     next_multiple_of_5 = 5
 
     # start loop to find value from ugly[1] to ugly[n] 
-    for l in range(1, n):
+.    for l in range(1, n):
 
         # choose the min value of all available multiples 
         ugly[l] = min(next_multiple_of_2, next_multiple_of_3, next_multiple_of_5)
